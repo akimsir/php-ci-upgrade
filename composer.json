@@ -1,0 +1,10 @@
+{
+    "name": "chernyshev/php-ci-upgrade",
+    "authors": [
+        {
+            "name": "Pavel Chernyshev",
+            "email": "vengador32@gmail.com"
+        }
+    ],
+    "require": {}
+}
