@@ -8,6 +8,8 @@ jobs:
       - uses: php-actions/composer@v6
         with:
           php_version: "8.1"
-      - uses: php-actions/phpunit@v3
+      - name: PHPUnit Tests
+        uses: php-actions/phpunit@v3
         with:
+          bootstrap: vendor/autoload.php
           php_version: "8.1"
