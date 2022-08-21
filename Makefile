@@ -1,2 +1,2 @@
 tests:
-	echo "Test output example"
+	echo vendor/bin/phpunit tests
